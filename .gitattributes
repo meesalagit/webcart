@@ -1,0 +1,6 @@
+# Treat TypeScript/TSX as JavaScript for GitHub language stats
+*.ts linguist-language=JavaScript
+*.tsx linguist-language=JavaScript
+
+# Ensure HTML is detected
+*.html linguist-detectable=true
